@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "endbiomeapi",
+  "version": "0.1.0",
+
+  "name": "End Biome API",
+  "description": "Allows modders to add end biomes in a compatible way.",
+  "authors": [
+    "SuperCoder79"
+  ],
+  "contact": {
+    "sources": ""
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "supercoder79.endbiomeapi.EndBiomeAPIEntrypoint"
+    ]
+  },
+  "mixins": [
+    "endbiomeapi.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": ">=1.15-"
+  }
+}

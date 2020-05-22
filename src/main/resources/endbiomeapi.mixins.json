@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "supercoder79.endbiomeapi.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinEndBiomeSource"
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
